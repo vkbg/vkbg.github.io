@@ -339,13 +339,235 @@ click the "make.rml" button and the project job send it to the Roland MDX-20 mil
 my project out put from Roland MDX-20 mill.
 <p><img src="img/59.jpg"style="width:600px;height:400px;"></p>
 <h1>Day 9</h1> <p><b>(31.10.2015)</p></b>
-Today we learn the operation and how to install the <b>"ShopBot"</b>
+Today we learn the operation and how to install the <b>"ShopBot and catchup "</b>
 
 <p>Design for milling: day we started with that. Gave a Design done by Puneeth.  
 Reviewed the documentation done by all. Franc told what all needed to be done in extra. Cleared all the
 doubts/roadblocks preventing documentation.
 
 Yesterday I designed  the object using the Antimony software 
+
+<h2>Week 3</h2>
+<h>Day 10 (02.11.2015)</h1>
+
+<h>Electronics Production</h>
+
+<p>Today we going to study the electronics area, Mr. Francisco give a basic thinks and basic idea for electrician. What is electrician ? <p>Where we use electrician ?. </p>
+
+<p><b>Basic electronics</b></p>
+
+<p><b>switch </b></p>
+
+<p><img src="img/60.jpeg"style="width:200px;height:200px;"></p>
+<p>A switch responds to an external force to mechanically change an electric signal. Switches are used to turn electric circuits ON and OFF and to switch electric circuits. Basically what this means is that when you push down or flick a switch you are allowing current to flow through to the rest of the circuit.</p>
+
+We have many different kinds of switches the most common are
+Toggle Switch, Push button Switch, Selector Switch</p>
+
+<p><b>Diodes</b></p>
+
+<p><img src="img/61.jpeg"style="width:200px;height:200px;"></p>
+<p>A Diode is the simplest two-terminal unilateral semiconductor device. It allows current to flow only in one direction and blocks the current that flows in the opposite direction. The two terminals of the diode are called as anode and cathode. The characteristics of a diode closely match to that of a switch. An ideal switch when open does not conduct current in either directions and in closed state conducts in both directions</p>
+
+There are many different types of diodes the most common are:
+Zener Diode: The Zener Diode allows current in reverse direction when the applied voltage reaches the breakdown voltage. (Based of principle of zener breakdown.)</p>
+
+<p><img src="img/62.png"style="width:400px;height:200px;"></p>
+Light Emitting Diode: The LED converts current into light. This type of diode is especially popular and is most commonly found in small electronics stop street lights and we may even see it finding its way into house lighting being cheaper and more Eco friendly.</p>
+
+<p><b>Resistor </b></p>
+
+<p><img src="img/63.png"style="width:400px;height:200px;"></p>
+The resistor is a passive two pole component used to limit the amount of current that is allowed to flow at any given time as well as the voltage. </p>
+
+<p><b>capacitor</b></p>
+
+<p><img src="img/63.1.jpeg"style="width:200px;height:200px;"></p>
+<p>A capacitor is a two-terminal, component used to temporarily store a charge in an electric feild. This is use full in Electrical Engineering because it can be used to smooth out varying DC supplies aswell as filtering circuits (high pass, low pass or band pass) they are even used as temporary batteries.</p>
+
+The most common types of capacitors you will find are:
+Supercap: Also known as a ultracapacitor, as the name implies these capacitors have very large amounts of capacitance.</p>
+
+Elecrtrolytic Capacitor: These are a type of capacitor that are polarised (they can only work in one direction) these are able to offer high capacitance values mostly above 1 μF. these are mostly used for low friquency applications</p>
+
+Ceramic Capacitor: Is a type of capacitor are that can store a charge anywhere from a picofarad to around 0.1 microfarad.</p>
+
+<p><b>Transistors</b></p>
+
+<p><img src="img/64.jpeg"style="width:200px;height:200px;"></p>
+Transistors are is a small mostly 3 pole component made of elements in the group 4 in the periodic table, Silicon being the most common. To understand it think of it like this, Your brain has billions upon billions of neurons. The neurons let you think and remember things, Computers act the same way except the computers neuron is called a Transistor.</p>
+
+<p><b>Potentiometer </b></p>
+
+<p><img src="img/65.jpeg"style="width:200px;height:200px;"></p>
+A Potentiometer is a knob that has variable resistance which can result in the dimming of your lights or even sending information back to your micro controller this component normally has 3 poles also called a 3 pole resistor it works in the same way as a voltage divider except for the fact that this has variable outputs. You will often find these in house holds or sound controllers.</p>
+
+<p><b>Motors</b></p>
+
+<p><img src="img/66.jpeg"style="width:200px;height:200px;"></p>
+Motors is a device that converts direct current into mechanical power. They rely on the forces produced by magnetic fields. It does this by having a coil of wire with a current running through it generates an electromagnetic field. The direction and magnitude of the magnetic field produced by the coil can be changed with the direction and magnitude of the current flowing through it.</p>
+
+The most common types of motors are</p>
+
+DC motors : This Motors simply starts spinning if you give it DC connection the speed and direction all depends on the arrangement of the positive and negative poles as well as the amount of current you put through it.</p>
+
+Servo Motors: These motors are awesome because they can turn to any specific location within 660 or 180 depending on the servo we have .</p>
+
+Stepper Motors: The main difference between them and all the other motors, is the way they revolve. Unlike other motors, stepper motors does not continuously rotate Instead, they rotate in steps . Each step is a fraction of a full circle. This fraction depends mostly from the mechanical parts of the motor, and from the driving method.</p>
+
+<p><b>PCB Fabrication</b></p>
+
+We started to downloading the Electronic Production assignment file form Fab academy 2015 archives. 
+We chose to mill the HelloISO board designed by Neil. Opened it in Antimony got the Trace .png and Outline .png.
+
+The next step is to open Fab Modules and give .png as the input format, select modella as the machine. Then load the traces .png file and then make path. Leave the settings as default.
+<p><b>type:</p></b>"fab" - Enter 
+<p><img src="img/67.1.png"style="width:600px;height:400px;"></p> 
+
+<p>Select the i/p format (.png file)<br>
+Select the o/p process (Roland MDX-20 mill(.rml))<br>
+Select the workflow (make_png_rml)<br>
+
+<p><img src="img/67.png"style="width:600px;height:400px;"></p>
+select top first "mill traces(1/64)"<br>
+click the "load.png" button and select our project work(.png).<br>
+
+click the "make.path" button and view type select "segments"<br>
+
+click the "make.rml" button and the project job send it to the PCB Milling machine.<br>
+<p><img src="img/68.png"style="width:600px;height:400px;"></p>
+
+<p><img src="img/69.png"style="width:600px;height:400px;"></p>
+select top first "mill traces(1/32)"<br>
+click the "load.png" button and select our project work(.png).<br>
+
+click the "make.path" button and view type select "segments"<br>
+
+click the "make.rml" button and the project job send it to the PCB Milling machine.<br>
+<p><img src="img/70.png"style="width:600px;height:400px;"></p>
+<p>Now move onto the machine, Switch it on. Change the bit carefully to 1/64 for milling the traces. Using the Fab Module move the head to the point where you want the origin to be. Then correct the height of the bit. We want to have it just touching the surface.
+Now in the Fab Modules give make .rml command and then send it to modella. Wait till the work is done. After cutting the traces change the bit to 1/32 and repeat the process using Fab Modules using cut board .png fil. This will make a cut around our circuit so that we can remove it from the larger board.</p>
+<p><img src="img/71.jpg"style="width:600px;height:400px;"></p>
+<p>Now as we have the board, it’s time to start soldering the components to it. As a good practice, Mr.Francisco told all to write down the components in a paper or book and draw a box corresponding to each component. Then we took the components and placed them in their corresponding boxes. This way we won’t mix up anything and it's easy to solder as the components are kept handy.</p>
+The final product is like:
+<p><img src="img/72.jpg"style="width:600px;height:400px;"></p>
+
+After soldering we have to check under the magnifier if the connections are proper and if time allows, do a continuity check too.
+Programming the Board<br>
+
+The prerequisites for programming your board are<br>
+
+    <p>1.Latest version of avrdude in our PC<br>
+    2.A mini USB cable<br>
+    3.firmware of the board<br>
+
+<p>When you have all the above try to flash the Firmware into the board.<br>
+ The steps to be followed are<br>
+
+    <p>download and extract the firmware<br>
+    open a terminal over there and give the following commands<br>
+        make clean<br>
+        make hex : If we are using an Atmelice isp make that change in the makefile [change to atmelice_isp]. If ywe are using USBtiny then change to that.<br>
+        sudo make fuse : its run Successfully.<br>
+        sudo make program .<br>
+   last our board should be programmed to work as an ISP.<br>
+     The soldering jumper should be removed after flashing the firmware.
+   
+<p><img src="img/73.png"style="width:400px;height:300px;"></p>
+
+<h1>Day 11 (03.11.2015)</h1>
+
+<h><b>Kokopelli</b></h>
+
+<p>Today we going to study the Kokopelli, Mr. Francisco toled that in MIT all PCB designer are use Kokopelli software. It is more power full and safe. We design a circuit in Kokopelli software, that file to easily modified by other designer in the world. So we start working with Kokopelli. First we take a circuit from fab Academy site and download the circuit .cad file, that cad file open with Kokopelli. </p>
+<p><img src="img/74.png"style="width:600px;height:400px;"></p>
+
+<p>Add  three extra component in to the circuit, like(LED,Resistor and button switch).The programs are shown the figure</p>
+
+<p><img src="img/75.png"style="width:600px;height:400px;"></p>
+
+After finishing the design we save the file to .png and that file give to the PCB milling machine .
+<p><img src="img/76.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/77.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/78.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/79.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/80.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/81.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/82.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/83.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/84.jpg"style="width:600px;height:400px;"></p>
+
+<h1>Day 12 (04.11.2015)</h1>
+
+<h><b>Programming and an intro to Arduino IDE</b></h>
+
+<h1>Day 13 (05.11.2015)</h1>
+
+<h><b>Video Conferencing and catchup time</b></h>
+
+<p><b>Video Conferencing</b></p>
+
+<p>Its very important to have a video conferencing facility in every FAB labs. It would be the window that connects to the rest of the labs and MIT. So setuped our lab conference facility using a combination of Ekiga and a stable internet connection. Franc also explained how the communications will be done during fab academy course, how to use the mcu.cba.mit.edu and how to navigate aroud the channel etc.
+We did a test conference with Fab Lab Barcelona to check the connections and to give us a feel of how it is.The FAB Lab 1 Internet connection is 1 mbps(1:1), it dedicated to video colling facility
+I too installed Ekiga,tried to connect to mcuc.cba.mit.edu it's work properly </p>
+
+<p><b>ShopBot</b></p>
+
+Mr.Franc toled the ShopBot PRSalpha tools are our toughest, most sophisticated, gantry-based CNC routers. Using advanced technology for CNC cutting, drilling, carving and machining, the PRSalpha series tools deliver rapid transit speeds of 1800 inches per minute and cutting speeds of up to 600 inches per minute. Easy to configure and re-configure,learn and use, the PRSalpha CNC delivers affordable, full-production performance in digital fabrication of wood, plastic, aluminum, and other materials. our shopbot bead is 8feetx4feet.
+next we discussed about the design parameteres and how to install the 2D works software using wine. there were no problems durinf installation. Franc also made some 2D desing that design to share to our DropBox account .
+
+<h2>Week 4</h2>
+<h>Day 13 (09.11.2015)</h1>
+
+<h>Final Project</h>
+<p><h>Design Brief</h>
+
+<p><b>Problem Statement</b></p>: Low light in the soldering station area.
+
+<p><b>Problem Description</b></p>: The FAB Lab Trivandrum ,in electronics workbench area is a low light area. Mostly we used SMD components are used, SMD pickup and soldering we need the focused light. Other wise we loss the SMD components and take long time to soldering.
+
+<p><b>Constraints</b></p>: its a normal lamp, size is big and weight is high, 
+
+<p><b>Size</b></p>: 			W:15cm , 
+			H: 5cm
+<p><b>Weight</b></p>: 		500gm
+<p><b>Material</b></p>: 		Ribbon white LED, Power Sources (12v)
+<p><b>Fabrication Process</b></p>: prepare a 12V DC power sources and supply 25cm Ribbon white LED. Then 				stick the  Ribbon LED on the soldering fume collector.
+<p><b>Budget</b></p>:  		25cm Ribbon white LED - Rs. 50/-
+			12V DC power sources - Rs. 75/-
+<p><b>Time</b></p>:			3 days
+<p><b>Goals</b></p>:			Perfect soldering and save SMD components
+
+
+<p><b>Solution Analysis</b></p>:	In this project we use only lightweight material and power full out put (Ribbon 				white LED)
+
+<p><b>Risks Benefits</b></p>:	Low power , long last and high focus
+
+<p><b>Planed Solutions</b></p>:	make an SMPS 12V DC and connect with a Ribbon white LED (Project Name : 				Soldering station lamp).
+
+<p><b>Sketches</b></p>:
+<p><img src="img/85.png"style="width:600px;height:400px;"></p>
+
+<h>Day 14 (10.11.2015)</h1>
+
+<h>Rhino</h>
+
+Designing in Rhinoceros
+
+<p>A new software was introduced to us today called rhino which is used for 2D as well as 3D drawings. I is a very powerful tool for making models for laser cutting, milling wax and for 3D printing. Luciano asked us to download and install the software. As It was a windowls/mac only software, my system was Ubuntu OS so it is not work in my system. I shifted to one of the windows system in FabLab and installed and tried some tools to design in 2d and 3D.</p> 
+
+<p><b>ShopBot</b></p>
+
+<p>As we didn't use the ShopBot till day Luciano decided to try it.
+He quickly drew a simple design in Rhino and exported it as .dxf file, opened it Vcarve and gave the profiles and the drill bit/tool used for each job. As I am quite familiar with the machine it was easy to follow. The things I learned new are how to determine the pass depth, which is half of the dia of the bit used, what is feed rate, plunge rate, stepover etc.</p>
+<p><img src="img/86.jpg"style="width:600px;height:400px;"></p>
+After completing the design and creating the profiles for cutting and drilling, we passed on the files to the jobcontrol software of ShopBot which did the rest. 
+<p><img src="img/87.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/88.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/89.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/90.jpg"style="width:600px;height:400px;"></p>
+
+
 
 
 
