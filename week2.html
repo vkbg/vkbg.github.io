@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <header id="top" class="header">
+        <div class="text-vertical-center">
+            
+<h1>Week 2</h1>
+<h2>Day 5 <p>(26.10.2015)</p></h2>
+
+(week 2 is to learn and use all the machines in each day)
+
+<p>Today we learn the operation and how to install the <b>"Vinyl Cutter"</b>
+<p>Using C Unix Printing System (CUPS 1.7.2) we created a new profile for the vinyl cutter. Case has to be taken while naming the device, it should be "vinyl" and it is case sensitive Then each of us made a design for cutting. I chose to cut out my initial (<b>BG</b>) . Then we were taught how to form a sticker properly and the steps to be
+followed.
+
+<p>first we type "http://localhost:631/" in a browser. CUPS 1.7.2 window opening.
+<p><img src="img/16.png"style="width:700px;height:550px;"></p>
+select the "Adding Printers and Classes"(Administrator)
+<p><img src="img/17.png"style="width:700px;height:550px;"></p>
+click the "Add Printer"button
+<p><img src="img/18.png"style="width:700px;height:550px;"></p>
+Enter our Admin User Name and Password and select our vinyl printer "usb/Roland/GX-24?serial=EBL8247"
+<p><img src="img/20.png"style="width:700px;height:550px;"></p>
+Enter our printer Name "vinyl" and location, Click the "Continue" button
+<p><img src="img/21.png"style="width:700px;height:550px;"></p>
+Select our printer make "Raw Queue(en)"
+<p><img src="img/22.png"style="width:700px;height:550px;"></p>
+click the "Add Printer" button, finally the printer added in our computer.
+
+<h2> Design Printing</h2>
+first we start to design a logo and save to .png format.Then go to terminal 
+<p><b>type:</p></b>"fab" - Enter  
+
+<p><img src="img/23.png"style="width:700px;height:550px;"></p>
+<p>Select the i/p format (.png file)<br>
+Select the o/p process (vinyl cutter)<br>
+Select the workflow (program)
+<p><img src="img/24.png"style="width:700px;height:550px;"></p>
+select top first "vinyl"<br>
+click the "load.png" button and select our project work(.png).
+<p><img src="img/25.png"style="width:700px;height:550px;"></p>
+click the "make.path" button and view type select "segments"
+<p><img src="img/26.png"style="width:700px;height:550px;"></p>
+click the "make.camm" button and the project job send it to the vinyl cutter.
+<p><img src="img/27.png"style="width:700px;height:550px;"></p>
+<p><img src="img/28.png"style="width:700px;height:550px;"></p>
+<p>first we check the vinyl sheet loaded properly in the vinyl cutter.we fix the vinyl sheet between the white marked area clse to left side of the vinyl cutter machine.
+<p><img src="img/29.png"style="width:700px;height:550px;"></p>
+next we select the vinyl sheet is "roll or piece" 
+<img src="img/30.jpg"style="width:300px;height:300px;">
+<img src="img/31.jpg"style="width:300px;height:300px;">
+<img src="img/32.png"style="width:300px;height:300px;"></p>
+after selection of sheet we pointing our origin using right,left,up and down key. Once we pointed the origin press and hold (3 seconds) the origin button
+<p>give a test print 
+<p><img src="img/33.png"style="width:400px;height:400px;"></p>
+first time test print was getting note OK, we check the cutting bit is broken using the magnifier.At last we found that cutting bit was broken.
+<p><img src="img/34.png"style="width:400px;height:400px;"></p>
+we change the broken bit and again try to print,we get the fine print.
+<p><img src="img/35.png"style="width:200px;height:200px;">          <img src="img/36.png"style="width:200px;height:200px;"></p>
+First one is my design and Secound one is vinyl cutter print out
+<h1>Day 6</h1> <p><b>(27.10.2015)</b></p>
+
+Today we learn the operation and how to install the <b>"Laser Cutter"</b>.
+<p>Design was made in Inkscape and then the saved .svg file was copied to the PC connected to the Laser cutter.This has the necessary job control software for the machine installed. The software only runs in Windows OS,so we are switch to computers in windows.First I designed a small chair in a paper then I draw on  inkscape software and saved to .svg file. The design was coped and pasted to a pendrive. The pendrive to connect the windows system and the design pasted to the desktop of the computer.Then lasered a cardboard sheet of 3.6mm thickness. By trial and error we determined the cut and engrave speed and power. Make sure that we note down the optimal value are shown bellow.</p>
+
+<b>1st Trial</b>
+<p>our material 3mm acrylics sheet<br>
+job		power(%),	speed(%),	Frequ(Hz)<br>
+Engraving	75,		40,		1000<br>
+Cutting		100,		10,		8000<br>
+
+Result : it's not cut<br>
+
+<p><b>2nd Trial</b>
+<p>
+job		power(%),	speed(%),	Frequ(Hz)<br>
+Engraving	75,		40,		1000<br>
+Cutting		100,		5,		8000<br>
+
+we change the speed 10% to 5%<br>
+
+Result : it's not cut<br>
+
+<p><b>3rd Trial</b>
+<p>
+job		power(%),	speed(%),	Frequ(Hz)<br>
+Engraving	75,		40,		1000<br>
+Cutting		100,		1.5,		8000<br>
+
+we change the speed 5% to 1.5%<br>
+
+Result : it's cut<br>
+<p>we save the parameter</p>
+
+
+our laser model is trotec Speedy 100, it is CO2 laser type. the work area is 24x12 inch, laser powe is 12-60 watts. Francisco toled laser is a dangerous machine,risks that may occur.
+<p>1.generation of fumes, ozone<br>
+2.explosions<br>
+3.high electrical tension<br>
+4.burning and fire<br>
+
+<p>The importance of focal positions in the laser cutting<br>
+The laser can handle variations in focus of +/-2.5mm. Once it gets outside this the laser beam becomes wider (less focused) and this results in a thicker cutting line and ill-defined engraving.<br> 
+<p><img src="img/37.png"style="width:600px;height:200px;"></p>
+<b>Focus position</b>
+<p><img src="img/38.png"style="width:400px;height:200px;"></p>
+<p>Exact positioning of the focal point is an important requirement for good cutting results.<br>
+
+<b>my project was a chair design</b>
+ 
+<p><img src="img/39.png"style="width:600px;height:300px;"></p>
+<img src="img/40.jpg"style="width:300px;height:200px;">  <img src="img/41.jpg"style="width:300px;height:200px;"></p>
+
+<h1>Day 7</h1> <p><b>(28.10.2015)</b></p>
+
+Today we learn the operation and how to install the <b>"3D Printer (Ultimaker 2)"</b>.
+<p>We started with Antimony software. Made a 3D design file for keeping the head of the hot blower. Afternoon session was on 3-D printing.
+
+<p><img src="img/42.png"style="width:600px;height:400px;"></p>
+<p><img src="img/43.png"style="width:600px;height:400px;"></p>
+<p><img src="img/44.png"style="width:600px;height:400px;"></p>
+After design the object to save as to .stl file and save the desktop. The .stl file to open with cura software.
+<p><img src="img/45.png"style="width:600px;height:400px;"></p>
+And the file convert .stl to .gcode format and save to an Ultimaker 2 SD card. Print the file using the rotate able Nobe and display.
+<p><img src="img/46.jpg"style="width:600px;height:400px;"></p>
+<p><img src="img/47.jpg"style="width:600px;height:400px;"></p>
+<p>Design: Take care of the leveling of the plate and make the distance between extruder head and the plate optimum. 45 degree is the maximum allowable slope. If it is higher than 45, the software will add support material. We must try to avoid the use of the support material. Positioning of the shape is also very crucial. The orientation will change according to the application of the printed object.</p> 
+<p><b>Controllable parameters:</b></p>
+<p>1.speed : slower the better, normal speed 50mm/sec<br>
+2.temperature : lower the better, find the minimum temp and use that<br>
+3.fill density : lower density saves material but lowers the structural robustness<br>
+4.speed in between printing layers. We can make it wait in between layers for the plastic to solidify<br>
+5.thickness of the layer : 100 micron is standard. 60 is great, anything below, don't bother. 150 if you are in a hurry<br>
+<p>Note : For troubleshooting Ultimaker 2, <a href="http://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide#elephant">http://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide#elephant</a></p>
+<h1>Day 8</h1> <p><b>(30.10.2015)</b><p>
+
+<p>Today we learn the operation and how to install the <b>"Modella"</b>.
+<p>Milling in Wax Block: Every dimension minus 10mm. That is, height, depth, etc . Take care of the maximum depth you can go while designing according to the size of the milling bit. The parameter in Fab Modules is clearance which take account of the mill length.</p>
+<p>We didn't get time to mill as we got stuck in Laser cutting the Modella base. But covered all everything needed to be done in the software side. Important points to be noted are.</p>
+<p>Design from antimony has to be exported as heightmap, which is basically .png file.<br> 
+later came to notice that exporting as .png had some bad effects on the cut, so better export as .stl and use that in fabmodules.<br>
+
+<p><img src="img/48.png"style="width:700px;height:550px;"></p>
+<p><img src="img/49.png"style="width:600px;height:400px;"></p>
+<p>Open fabmodules and give input as .png/.stl and select the Modella as machine.<br>
+Afterwards select the exported file and select initially the cut as rough cut and after finishing the rough   cut do the final cut.<br></p>
+<p>3,designed and the one shown in fabmodules. If there's any, correct it.<br> 
+<p><img src="img/50.jpg"style="width:600px;height:400px;"></p>
+<p><b>type:</p></b>"fab" - Enter
+<p><img src="img/51.png"style="width:600px;height:400px;"></p>
+<p>Select the i/p format (.png file)<br>
+Select the o/p process (Roland MDX-20 mill(.rml))<br>
+Select the workflow (program)
+<p><img src="img/52.png"style="width:600px;height:400px;"></p>
+<p>Setting values in fabmodules is as follows<br>
+give the right dia od the bit we are using.<br>
+give the overlap as .5 rather than .25 which loads as default.<br> 
+look if their is any disparity in the dimensions of the one you<br></p>
+choose the origin according to the placement of your wax block. 
+make .rml and send it to the modella.<br> 
+<p><img src="img/53.png"style="width:600px;height:400px;"></p>
+select top first "Wax rough cut (1/8)"<br>
+click the "load.png" button and select our project work(.png).
+<p><img src="img/54.png"style="width:600px;height:400px;"></p>
+click the "make.path" button and view type select "segments"
+<p><img src="img/55.png"style="width:600px;height:400px;"></p>
+<p><img src="img/56.png"style="width:600px;height:400px;"></p>
+<p><img src="img/57.png"style="width:600px;height:400px;"></p>
+click the "make.rml" button and the project job send it to the Roland MDX-20 mill
+<p>When the milling is over, collect all the milled out wax so that we can use it to make another usable wax block.<br></p>
+<p><img src="img/58.jpg"style="width:600px;height:400px;"></p>
+my project out put from Roland MDX-20 mill.
+<p><img src="img/59.jpg"style="width:600px;height:400px;"></p>
+<h1>Day 9</h1> <p><b>(31.10.2015)</p></b>
+Today we learn the operation and how to install the <b>"ShopBot and catchup "</b>
+
+<p>Design for milling: day we started with that. Gave a Design done by Puneeth.  
+Reviewed the documentation done by all. Franc told what all needed to be done in extra. Cleared all the
+doubts/roadblocks preventing documentation.
+
+Yesterday I designed  the object using the Antimony software 
+
+
+</body>
+
+</html>
